@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>
+      Frontend Mentor | Huddle landing page with alternating feature blocks
+    </title>
+  </head>
+  <body class="m-auto justify-center md:flex md:flex-col">
+    <header
+      class="container py-6 px-4 font-Poppins bg-primary-VeryPaleCyan bg-opacity-50 m-auto md:px-16 md:pt-12 md:w-screen md:max-w-full justify-center lg:pb-44"
+    >
+      <img
+        class="absolute top-0 right-0 object-cover m-auto -z-20 md:hidden"
+        src="./images/bg-hero-mobile.svg"
+        alt=""
+      />
+      <img
+        class="md:visible invisible absolute top-0 right-0 -z-20"
+        src="./images/bg-hero-desktop.svg"
+        alt=""
+      />
+      <div class="flex justify-between items-center mb-16">
+        <img
+          class="w-[100px] h-[16px] lg:w-[200px] lg:h-[32px]"
+          src="./images/logo.svg"
+          alt="logo"
+        />
+        <button
+          class="hover:text-opacity-50 bg-white rounded-full px-6 py-1 drop-shadow-[0_4px_4px_rgb(0,0,0,0.25)] font-bold text-xs text-primary-VeryDarkCyan font-Open_Sans lg:text-base"
+        >
+          Try It Free
+        </button>
+      </div>
+      <div
+        class="container flex flex-col text-center items-center px-5 justify-center m-auto md:flex-row md:gap-12"
+      >
+        <div class="md:text-start">
+          <h1
+            class="mb-7 text-2xl font-bold opacity-90 text-primary-VeryDarkCyan md:text-3xl lg:text-5xl"
+          >
+            Build The Community Your Fans Will Love
+          </h1>
+          <p class="text-primary-VeryDarkCyan mb-7 md:text-base lg:text-lg">
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <button
+            class="hover:opacity-60 drop-shadow-xl font-Open_Sans font-bold bg-primary-Pink text-white rounded-full text-xs py-3 px-16 mb-12 md:text-lg"
+          >
+            Get Started For Free
+          </button>
+        </div>
+        <img
+          class="md:w-[50%]"
+          src="./images/illustration-mockups.svg"
+          alt=""
+        />
+      </div>
+    </header>
+    <main
+      class="container font-Poppins m-auto justify-center md:flex md:flex-col"
+    >
+      <div
+        class="container gap-7 grid grid-cols-1 pt-14 grid-rows-3 text-center items-center px-3.5 justify-center pb-52 lg:pt-52"
+      >
+        <div
+          class="flex-col-reverse shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] container px-7 pb-8 pt-14 items-center drop-shadow-3xl rounded-xl flex lg:flex-row lg:gap-36 lg:pl-28"
+        >
+          <div class="lg:text-start">
+            <h1
+              class="mb-3 text-xl font-bold opacity-90 text-primary-VeryDarkCyan lg:text-3xl"
+            >
+              Grow Together
+            </h1>
+            <p
+              class="text-primary-GrayishBlue text-sm font-Open_Sans font-bold opacity-90 px-2 lg:text-lg lg:px-0"
+            >
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
+          <img
+            class="w-[80%] mb-14 lg:w-[40%] lg:pr-14"
+            src="./images/illustration-grow-together.svg"
+            alt=""
+          />
+        </div>
+        <div
+          class="shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] container px-7 pb-8 pt-14 items-center drop-shadow-3xl rounded-xl flex flex-col lg:flex-row lg:gap-36 lg:pl-28"
+        >
+          <img
+            class="w-[80%] mb-14 lg:w-[40%]"
+            src="./images/illustration-flowing-conversation.svg"
+            alt=""
+          />
+          <div class="lg:text-start">
+            <h1
+              class="mb-3 text-xl font-bold opacity-90 text-primary-VeryDarkCyan lg:text-3xl"
+            >
+              Flowing Conversations
+            </h1>
+            <p
+              class="text-primary-GrayishBlue text-sm font-Open_Sans font-bold opacity-90 px-2 lg:text-lg lg:px-0"
+            >
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex-col-reverse relative container px-7 pb-8 pt-14 items-center shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] rounded-xl flex lg:flex-row lg:gap-36 lg:pl-28"
+        >
+          <div class="lg:text-start">
+            <h1
+              class="mb-3 text-xl font-bold opacity-90 text-primary-VeryDarkCyan lg:text-3xl"
+            >
+              Your Users
+            </h1>
+            <p
+              class="text-primary-GrayishBlue text-sm font-Open_Sans font-bold opacity-90 px-2 lg:text-lg lg:px-0"
+            >
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
+          <img
+            class="w-[80%] mb-14 lg:w-[40%]"
+            src="./images/illustration-your-users.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </main>
+    <footer
+      class="flex flex-col bg-primary-VeryDarkCyan relative pt-[100px] w-full m-auto px-[10%]"
+    >
+      <div
+        class="lg:pt-10 lg:w-[25%] shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] container px-4 pt-7 items-center text-center rounded-xl flex flex-col bg-white absolute -top-[100px] w-80 m-auto self-center z-20"
+      >
+        <h1
+          class="mb-3 text-base font-bold opacity-90 text-primary-VeryDarkCyan lg:text-2xl"
+        >
+          Ready To Build Your Community?
+        </h1>
+        <button
+          class="lg:text-lg hover:opacity-60 font-Open_Sans font-bold bg-primary-Pink text-white rounded-full drop-shadow-[0_4px_4px_rgb(0,0,0,0.25)] text-xs py-3 px-16 mb-12"
+        >
+          Get Started For Free
+        </button>
+      </div>
+      <img
+        class="w-[150px] lg:w-[200px] pl-6 pb-9 lg:pt-24"
+        src="./images/logo2.png"
+        alt=""
+      />
+      <div class="container px-6 lg:grid grid-cols-5 lg:items-start lg:pt-6">
+        <div class="col-span-2">
+          <div class="flex items-start">
+            <img class="w-5 h-5" src="./images/icon-location.svg" alt="" />
+            <p class="pl-5 text-primary-VeryPaleCyan lg:pr-36">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
+          <div class="flex items-center pt-6">
+            <img class="w-4 h-4" src="./images/icon-phone.svg" alt="" />
+            <p class="pl-5 text-primary-VeryPaleCyan">+1-543-123-4567</p>
+          </div>
+          <div class="flex items-center pt-6">
+            <img class="w-5 h-4" src="./images/icon-email.svg" alt="" />
+            <p class="pl-5 text-primary-VeryPaleCyan">example@huddle.com</p>
+          </div>
+        </div>
+        <div class="pt-9 lg:pt-0">
+          <h1
+            class="text-primary-VeryPaleCyan pt-3 hover:underline cursor-pointer lg:pt-0"
+          >
+            About Us
+          </h1>
+          <h1
+            class="text-primary-VeryPaleCyan pt-3 hover:underline cursor-pointer"
+          >
+            What We Do
+          </h1>
+
+          <h1
+            class="text-primary-VeryPaleCyan pt-3 hover:underline cursor-pointer"
+          >
+            FAQ
+          </h1>
+        </div>
+        <div class="pb-9 lg:pt-0">
+          <h1
+            class="text-primary-VeryPaleCyan pt-3 hover:underline cursor-pointer lg:pt-0"
+          >
+            Career
+          </h1>
+          <h1
+            class="text-primary-VeryPaleCyan pt-3 hover:underline cursor-pointer"
+          >
+            Blog
+          </h1>
+          <h1
+            class="text-primary-VeryPaleCyan pt-3 hover:underline cursor-pointer col-start-4"
+          >
+            Contact Us
+          </h1>
+        </div>
+        <div
+          class="container flex justify-center items-center gap-3 pb-5 col-start-5 lg:pt-6"
+        >
+          <svg
+            class="fill-primary-VeryPaleCyan cursor-pointer hover:fill-primary-Pink"
+            xmlns="http://www.w3.org/2000/svg"
+            height="25"
+            width="25"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
+            />
+          </svg>
+          <svg
+            class="fill-primary-VeryPaleCyan cursor-pointer hover:fill-primary-Pink"
+            xmlns="http://www.w3.org/2000/svg"
+            height="25"
+            width="25"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"
+            />
+          </svg>
+          <svg
+            class="fill-primary-VeryPaleCyan cursor-pointer hover:fill-primary-Pink"
+            xmlns="http://www.w3.org/2000/svg"
+            height="25"
+            width="25"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+            />
+          </svg>
+        </div>
+        <div
+          class="container flex justify-center gap-1.5 items-center pb-14"
+        ></div>
+      </div>
+      <div
+        class="container flex gap-2 justify-center items-center lg:justify-end"
+      >
+        <svg
+          class="fill-primary-VeryPaleCyan cursor-pointer hover:fill-primary-Pink"
+          xmlns="http://www.w3.org/2000/svg"
+          height="10"
+          width="10"
+          viewBox="0 0 512 512"
+        >
+          <path
+            d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM199.4 312.6c-31.2-31.2-31.2-81.9 0-113.1s81.9-31.2 113.1 0c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9c-50-50-131-50-181 0s-50 131 0 181s131 50 181 0c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0c-31.2 31.2-81.9 31.2-113.1 0z"
+          />
+        </svg>
+        <p class="text-xs text-primary-VeryPaleCyan">
+          Copyright 2018 Huddle. All rights reserved.
+        </p>
+      </div>
+
+      <p class="text-center text-xs text-primary-VeryPaleCyan pb-6">
+        Challenge by
+        <a
+          class="text-primary-GrayishBlue hover:text-primary-Pink"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          class="text-primary-GrayishBlue hover:text-primary-Pink"
+          href="https://github.com/ELMudyr"
+          >ELMudyr</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
